@@ -1,0 +1,57 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.customnav {
+    background-color: #69899f;
+  border-color: #425766;
+  margin-bottom: -20px;
+}
+.customnav .navbar-brand {
+  color: #d7e2e9;
+}
+.customnav .navbar-brand:hover, customnav .navbar-brand:focus {
+  color: #e5dbdb;
+}
+.customnav .navbar-text > li {
+  color: #d7e2e9;
+}
+.customnav .navbar-nav > li > a {
+  color: #d7e2e9;
+}
+.customnav .navbar-nav > li > a:hover,  .customnav .navbar-nav > li > a:active {
+  color: #e5dbdb;
+   background-color: #425766;
+}
+ .customnav .navbar-nav > li > a.active, .customnav .navbar-nav > li > a:focus {
+  color: #e5dbdb;
+  background-color: #425766;
+}
+ .customnav .navbar-nav > li > a.active {
+  color: #e5dbdb;
+  background-color: #425766;
+}
+
+.customnav .navbar-toggle {
+  border-color: #425766;
+}
+.customnav .navbar-toggle:hover, .customnav .navbar-toggle:focus {
+  background-color: #425766;
+}
+.customnav .navbar-toggle .icon-bar {
+  background-color: #d7e2e9;
+}
+.customnav .navbar-collapse,
+.customnav .navbar-form {
+  border-color: #d7e2e9;
+}
+.customnav .navbar-link {
+  color: #d7e2e9;
+}
+.customnav .navbar-link:hover {
+  color: #e5dbdb;
+}
+
+.angular-with-newlines {
+  white-space: pre-line;
+}

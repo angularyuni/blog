@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<base href="/"> <!-- <<<< IMPORTANT --->
+<link rel="stylesheet" href="libs/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<!-- LIBS -->
+<script src="libs/angular2-polyfills.js"></script>
+<script src="libs/system.src.js"></script>
+<script src="libs/Rx.js"></script>
+<script src="libs/angular2.dev.js"></script>
+<script src="libs/http.dev.js"></script>
+<script src="libs/router.dev.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- BOOT -->
+<script>
+System.config({
+    packages: {
+        app: {
+            format: 'register',
+            defaultExtension: 'js'
+        }   
+    }
+});
+System.import('app/boot')   
+        .then(null, console.error.bind(console));
+</script>
+</head>
+<body>
+    <div class="container">
+<my-app>Loading... </my-app>
+</div>
+</body>
+</html>
