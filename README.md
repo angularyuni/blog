@@ -1,6 +1,6 @@
 # blog
 ##### A simple blog with Posts and Users and a login interface. 
-#####  Thi RESTful server uses Node.js project with the following technologies:
+#####  This RESTful server uses Node.js project with the following technologies:
 * express: It is the web server responsible for the API.
 * body-parser: It is a library for the JSON data POST requests.
 * mongoose: It is an adapter for the MongoDB data base that is a NoSql data base.
