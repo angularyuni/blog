@@ -1,5 +1,5 @@
 # blog
-##### A simple blog with Posts and Users and a login interface. 
+##### A simple blog with posts, users and a login interface. 
 #####  This RESTful server uses Node.js project with the following technologies:
 * express: It is the web server responsible for the API.
 * body-parser: It is a library for the JSON data POST requests.
